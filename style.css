@@ -1,0 +1,60 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: yellow;
+
+  display : table;
+  width: 100%;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+.main {
+  position:relative;
+  width: 1000px;
+  margin: auto;
+  background-color: white;
+  
+}
+
+section {
+  width: 70%;
+  float: left;
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+aside {
+  float: right;
+  width: 30%;
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: white;
+  border: 2px solid black;
+}
+
+aside li {
+  list-style-type: none;
+}
+li img {
+  width: 150px;
+  height: 150px;
+
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer {
+  clear: both;
+  display : table-row;
+  height: 100px;
+}
